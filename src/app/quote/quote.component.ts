@@ -9,7 +9,7 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
     new Quote(1, 'JOSEE', "There is only one way to happiness and that is to cease worrying about things beyond your will.",new Date(2020,6,11)),
-    new Quote(2,'BENARD AKAKA',"What you do not want done to yourelf,do not do to others",new Date(2020,4,12)),
+    new Quote(2,'BENARD AKAKA',"What you do not want done to yourelf,do not do to others since life is a life cycle and what goes around comes around",new Date(2020,4,12)),
     new Quote(3,'ABDUL khazam.',"Happiness is not something ready made,you must work to find true happiness.",new Date(2020,11,12)),
     new Quote(4,'Mr Psalmist',"Make your life a masterpiece;imagine no limitations on what you can be,have to do.",new Date(2020,11,6)),
     new Quote(5,'BISMILLAHI Mstaf',"You see, the way you think and feel about yourself,including your beliefs and expectations about what is possible for you,determines everything that happens.",new Date(2020,11,6)),
