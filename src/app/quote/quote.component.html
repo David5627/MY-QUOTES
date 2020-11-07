@@ -8,8 +8,12 @@
         <div class="hen">
           <h6 id={{i}}>{{quote.name}} </h6>
         </div>
-        <div>{{quote.description}} </div>
-        <div>due on {{quote.day|dateCount}} days ago</div>
+        <div>
+          <h6 id="{{i}}">{{quote.description}}</h6> 
+        </div>
+        <div>
+         <h6 id="{{i}}">due on {{quote.day|dateCount}} days ago</h6> 
+        </div>
         <button (click)= 'deleteQuote($event,i)'>Delete Quote</button>
 
         <div *ngIf='quote.showDescription'>
