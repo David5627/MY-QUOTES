@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Quote } from '../quote';
+import { WeekDay } from '@angular/common';
 
 @Component({
   selector: 'app-quote',
