@@ -1,0 +1,25 @@
+<div class="container">
+  <h1>Real-Life-Quotes</h1>
+  <hr>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div *ngFor='let quote of quotes;let i = index'>
+        <div class="hen">
+          <h6 id={{i}}>{{quote.name}} </h6>
+        </div>
+        <div>{{quote.description}} </div>
+        <div>due on {{quote.day|dateCount}} days ago</div>
+        <button (click)= 'deleteQuote($event,i)'>Delete Quote</button>
+
+        <div *ngIf='quote.showDescription'>
+          <app-quote-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
+  </div>
+  <p *ngIf='quotes.length > 5'></p>
+</div>

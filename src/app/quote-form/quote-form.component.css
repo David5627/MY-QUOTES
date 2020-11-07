@@ -1,0 +1,16 @@
+
+
+ @import "~bootstrap/dist/css/bootstrap.css";
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } 
+
+  .container{
+    background-image: url("images/outrun-vaporwave-hd-wallpaper-thumb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+       
+   }
