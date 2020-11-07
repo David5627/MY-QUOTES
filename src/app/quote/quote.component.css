@@ -5,4 +5,9 @@
  color: white;
 
     
-}.hen{color: tomato;}
+}
+.hen{color: tomato;}
+
+#liz{
+    font-style: italic;
+}
