@@ -14,6 +14,9 @@ export class QuoteComponent implements OnInit {
     new Quote(4,'Mr Psalmist',"Make your life a masterpiece;imagine no limitations on what you can be,have to do.",new Date(2020,11,6)),
     new Quote(5,'BISMILLAHI Mstaf',"You see, the way you think and feel about yourself,including your beliefs and expectations about what is possible for you,determines everything that happens.",new Date(2020,11,6)),
     new Quote(6,'OWEN Gabriel',"The only joy in the world is to begin since a journey of a thousand miles starts with a single step.",new Date(2020,11,6)), 
+    new Quote(6,'David K',"Life is what happens when you're busy making other plans.",new Date(2020,11,7)), 
+    new Quote(6,'David K',"You only live once, but if you do it right, once is enough.",new Date(2020,11,7)), 
+
   ];
 
   addNewQuote(quote){
