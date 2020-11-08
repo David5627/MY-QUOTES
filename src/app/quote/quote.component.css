@@ -1,13 +1,25 @@
 .container{
  background-image: url("images/outrun-vaporwave-hd-wallpaper-thumb.jpg");
+ /* opacity: red; */
+ 
  background-repeat: no-repeat;
  background-size: cover;
  color: white;
 
     
 }
-.hen{color: tomato;}
+.hen{color: tomato;
+    font-weight: 200;
+}
 
 #liz{
     font-style: italic;
+    font-weight: 200;
+
+}
+
+#ptl{
+    color: gold;
+    font-weight: 200;
+
 }

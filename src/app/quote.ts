@@ -12,10 +12,11 @@ export class Quote {
         this.description = description,
         this.day = day;
         this.showDescription=false;
-        
+        this.like = 0;
+        this.unlike = 0;
 
         
-    }
+    } 
 
 }
 
