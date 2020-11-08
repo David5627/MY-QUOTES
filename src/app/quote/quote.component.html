@@ -17,9 +17,10 @@
         <div id="ptl">
          <h6 id="{{i}}">due on {{quote.day|dateCount}} days ago</h6> 
         </div>
-        <button (click)= 'deleteQuote($event,i)'>Delete Quote</button>
-        <button (click)='upvote(i)'><span><i class="fas fa-thumbs-up"></i>Like{{quote.like}}</span></button>
-        <button (click)='downvote(i)'><span><i class="fas fa-thumbs-down"></i>Dislike{{quote.unlike}}</span></button>
+          <button (click)= 'deleteQuote($event,i)'>Delete Quote</button>
+          <button (click)='upvote(i)'><span><i class="fas fa-thumbs-up" id="bton"></i>Like{{quote.like}}</span></button>
+          <button (click)='downvote(i)'><span><i class="fas fa-thumbs-down" id="bton"></i>Dislike{{quote.unlike}}</span></button>
+       
         <div *ngIf='quote.showDescription'>
           <app-quote-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
         </div>
